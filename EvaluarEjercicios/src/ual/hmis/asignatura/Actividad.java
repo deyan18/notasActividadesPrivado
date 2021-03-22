@@ -6,7 +6,7 @@ import java.util.*;
 public class Actividad {
 
 	private String nombre; // nombre de la actividad
-	private ArrayList<Ejercicio> ejercicios;
+	private ArrayList<Ejercicio> ejercicios = new ArrayList<Ejercicio>();
 	private boolean apta;
 	private double puntuacionTotal;
 
