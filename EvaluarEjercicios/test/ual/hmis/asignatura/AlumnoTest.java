@@ -56,4 +56,21 @@ class AlumnoTest {
 	void testNotaActividad(String nombre, double salida) {
 		assertEquals(salida, alumno.calcularNotaActividad(nombre));
 	} 
+	
+	@ParameterizedTest (name = "{index} => Con entrada ({0}) sale {1}")
+	@CsvSource({"Deyan, Deyan"})
+	
+	void testNombreAlumno(String nombre, String salida) {
+		alumno.setNombre(nombre);
+		assertEquals(salida, alumno.getNombre());
+	} 
+	
+	@ParameterizedTest (name = "{index} => Con entrada ({0}) sale {1}")
+	@CsvSource({"ejercicio1, ejercicio1"})
+	
+	void testNombreEjercicio(String nombre, String salida) {
+		Ejercicio e = new Ejercicio();
+		e.setNombre(nombre);
+		assertEquals(salida, e.getNombre());
+	} 
 }

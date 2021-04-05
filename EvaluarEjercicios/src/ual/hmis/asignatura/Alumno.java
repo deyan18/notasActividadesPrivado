@@ -46,6 +46,8 @@ public class Alumno {
 
 	public String calificacion (double nota){
 		
+		if(nota < 0 || nota > 10)
+			return "Error en la nota";
 		if(nota < 5)
 			return "Suspenso";
 		if(nota < 7)
@@ -54,40 +56,38 @@ public class Alumno {
 			return "Notable";
 		if(nota < 10)
 			return "Sobresaliente";
-		if(nota == 10)
-			return "Matricula";
 		else
-			return "Error en la nota";
+			return "Matricula";
 			
 	}
 	
 	public String cursoSegunEdad (int anyoNacimiento) {
 		if(anyoNacimiento == 2017)
-			return "1º Educación Infantil";
+			return "1ï¿½ Educaciï¿½n Infantil";
 		if(anyoNacimiento == 2016)
-			return "2º Educación Infantil";
+			return "2ï¿½ Educaciï¿½n Infantil";
 		if(anyoNacimiento == 2015)
-			return "3º Educación Infantil";
+			return "3ï¿½ Educaciï¿½n Infantil";
 		if(anyoNacimiento == 2014)
-			return "1º Educación Primaria";
+			return "1ï¿½ Educaciï¿½n Primaria";
 		if(anyoNacimiento == 2013)
-			return "2º Educación Primaria";
+			return "2ï¿½ Educaciï¿½n Primaria";
 		if(anyoNacimiento == 2012)
-			return "3º Educación Primaria";
+			return "3ï¿½ Educaciï¿½n Primaria";
 		if(anyoNacimiento == 2011)
-			return "4º Educación Primaria";
+			return "4ï¿½ Educaciï¿½n Primaria";
 		if(anyoNacimiento == 2010)
-			return "5º Educación Primaria";
+			return "5ï¿½ Educaciï¿½n Primaria";
 		if(anyoNacimiento == 2009)
-			return "6º Educación Primaria";
+			return "6ï¿½ Educaciï¿½n Primaria";
 		if(anyoNacimiento == 2008)
-			return "1º Educación Secundaria";
+			return "1ï¿½ Educaciï¿½n Secundaria";
 		if(anyoNacimiento == 2007)
-			return "2º Educación Secundaria";
+			return "2ï¿½ Educaciï¿½n Secundaria";
 		if(anyoNacimiento == 2006)
-			return "3º Educación Secundaria";
+			return "3ï¿½ Educaciï¿½n Secundaria";
 		if(anyoNacimiento == 2005)
-			return "4º Educación Secundaria";
+			return "4ï¿½ Educaciï¿½n Secundaria";
 		else
 			return "Error en la edad";
 	}

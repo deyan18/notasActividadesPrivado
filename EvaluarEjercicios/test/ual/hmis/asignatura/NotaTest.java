@@ -18,6 +18,5 @@ public class NotaTest {
 	void testNotaActividad(Double entrada, String salida) {
 		Alumno a = new Alumno();
 		assertEquals(salida, a.calificacion(entrada));
-		// assertTrue(c.transformar(input)==expected);
 	} 
 }
