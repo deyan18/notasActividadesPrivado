@@ -63,31 +63,31 @@ public class Alumno {
 	
 	public String cursoSegunEdad (int anyoNacimiento) {
 		if(anyoNacimiento == 2017)
-			return "1� Educaci�n Infantil";
+			return "1o Educacion Infantil";
 		if(anyoNacimiento == 2016)
-			return "2� Educaci�n Infantil";
+			return "2o Educacion Infantil";
 		if(anyoNacimiento == 2015)
-			return "3� Educaci�n Infantil";
+			return "3o Educacion Infantil";
 		if(anyoNacimiento == 2014)
-			return "1� Educaci�n Primaria";
+			return "1o Educacion Primaria";
 		if(anyoNacimiento == 2013)
-			return "2� Educaci�n Primaria";
+			return "2o Educacion Primaria";
 		if(anyoNacimiento == 2012)
-			return "3� Educaci�n Primaria";
+			return "3o Educacion Primaria";
 		if(anyoNacimiento == 2011)
-			return "4� Educaci�n Primaria";
+			return "4o Educacion Primaria";
 		if(anyoNacimiento == 2010)
-			return "5� Educaci�n Primaria";
+			return "5o Educacion Primaria";
 		if(anyoNacimiento == 2009)
-			return "6� Educaci�n Primaria";
+			return "6o Educacion Primaria";
 		if(anyoNacimiento == 2008)
-			return "1� Educaci�n Secundaria";
+			return "1o Educacion Secundaria";
 		if(anyoNacimiento == 2007)
-			return "2� Educaci�n Secundaria";
+			return "2o Educacion Secundaria";
 		if(anyoNacimiento == 2006)
-			return "3� Educaci�n Secundaria";
+			return "3o Educacion Secundaria";
 		if(anyoNacimiento == 2005)
-			return "4� Educaci�n Secundaria";
+			return "4o Educacion Secundaria";
 		else
 			return "Error en la edad";
 	}
